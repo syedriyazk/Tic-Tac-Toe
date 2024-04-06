@@ -22,7 +22,7 @@ const winPattern = [
 //Reset and newgame button triggered by addEventListener
 const resetgame =() =>{
     turnO=true;
-    count=0;
+    count=0; 
     enableboxes(); //enable callback function
     msgContainer.classList.add("hide");
 };
